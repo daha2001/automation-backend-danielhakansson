@@ -1,0 +1,176 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-26T10:03:54.582Z",
+    "end": "2021-11-26T10:03:57.678Z",
+    "duration": 3096,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7b3d8492-720e-43fd-88a3-324af40e34aa",
+      "title": "",
+      "fullFile": "cypress/integration/backend-test-suite.spec.js",
+      "file": "cypress/integration/backend-test-suite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0e3c5c48-c01e-42b1-9783-e02619cc5b1f",
+          "title": "backend test suite - hotel application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Create a new client",
+              "fullTitle": "backend test suite - hotel application Create a new client",
+              "timedOut": null,
+              "duration": 871,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelp.createClientRequest(cy);",
+              "err": {},
+              "uuid": "b2f29ba7-3205-4b29-ba94-8a679916c23a",
+              "parentUUID": "0e3c5c48-c01e-42b1-9783-e02619cc5b1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Edit the third client",
+              "fullTitle": "backend test suite - hotel application Edit the third client",
+              "timedOut": null,
+              "duration": 662,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelp.editClientRequest(cy);",
+              "err": {},
+              "uuid": "30ab5112-88a7-4046-acfe-21214077699a",
+              "parentUUID": "0e3c5c48-c01e-42b1-9783-e02619cc5b1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create reservation",
+              "fullTitle": "backend test suite - hotel application Create reservation",
+              "timedOut": null,
+              "duration": 625,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "reservationHelp.createNewReservationRequest(cy);",
+              "err": {},
+              "uuid": "3feb552d-f39f-4566-b120-fdac1bd47257",
+              "parentUUID": "0e3c5c48-c01e-42b1-9783-e02619cc5b1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Edit the second reservation",
+              "fullTitle": "backend test suite - hotel application Edit the second reservation",
+              "timedOut": null,
+              "duration": 617,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "reservationHelp.editReservationRequest(cy);",
+              "err": {},
+              "uuid": "bd52f55c-8aa1-4c56-9c12-39f61f0c412c",
+              "parentUUID": "0e3c5c48-c01e-42b1-9783-e02619cc5b1f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Delete the last client",
+              "fullTitle": "backend test suite - hotel application Delete the last client",
+              "timedOut": null,
+              "duration": 111,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "clientHelp.deleteLatestClient(cy);",
+              "err": {},
+              "uuid": "88ffb928-5b13-4761-bcc1-ceee15aafa11",
+              "parentUUID": "0e3c5c48-c01e-42b1-9783-e02619cc5b1f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b2f29ba7-3205-4b29-ba94-8a679916c23a",
+            "30ab5112-88a7-4046-acfe-21214077699a",
+            "3feb552d-f39f-4566-b120-fdac1bd47257",
+            "bd52f55c-8aa1-4c56-9c12-39f61f0c412c",
+            "88ffb928-5b13-4761-bcc1-ceee15aafa11"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2886,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.0.1"
+    }
+  }
+}
